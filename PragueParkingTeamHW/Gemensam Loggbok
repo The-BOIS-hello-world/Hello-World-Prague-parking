@@ -1,0 +1,60 @@
+Shayan
+- https://miro.com/ planering, förbreda inför uppgiften, räkna ut hur vi ska lösa uppgiften
+- Simpel switchmeny med 5 olika val.
+- Vi satt i Chalmers grupprum, brainstorming, skapa classer, metoder och byggt på grunden i koded, mappat ut hur eventuella metoder ska se ut.
+- Planerat med kommentarer vad som ska ske i varje metod.
+- Vi har skapat en static array som används genom alla klasser som uppdateras med varje add mc/car.
+- Problem uppstod när vi skulle kalla på vår static array. Fixade med en simple bugfix.
+- Skrivit kod för OptimizeParking, som flyttar ensamma MC till andra ensamma MC.
+- Rensat Main, flyttat ut meny metoder till en separat klass (VisualMenu)
+- La till Optimize MC - som flyttar ihopp en singel MC med en annan för att optimera våra platser o skapa fler tomma
+Basel
+- https://miro.com/ planering, förbreda inför uppgiften, räkna ut hur vi ska lösa uppgiften
+- Vi satt i Chalmers grupprum, brainstorming, skapa classer, metoder och byggt på grunden i koded, mappat ut hur eventuella metoder ska se ut.
+- Planerat med kommentarer vad som ska ske i varje metod.
+- Vi har skapat en static array som används genom alla klasser som uppdateras med varje add mc/car.
+- Vi skapade add Car och add MC. Problem uppstod när vi skulle kalla på vår static array. Fixade med en simple bugfix. 
+- En fungerade "karta" över parkeringen.
+- Har lagt till interaktiv menu. RIKIGT coolt. 
+- Centrerat så att texten börjar i mitten av skrämen. 
+- Har skapat flera metoder för att dom ska funka tillsammans med menun och våra andra classer.
+- Bugfixat runt om men för det mesta i menun. 
+- la till move car och sin plats i menyn 
+- la till optimize parkering i menyn 
+- finlir med menyn 
+-  la till search och gjorde klart
+- Lagt till move MC. Buggfixat menun och bugfixat move MC.
+- End credits
+
+Oliver
+- https://miro.com/ planering, förbreda inför uppgiften, räkna ut hur vi ska lösa uppgiften
+- Vi satt i Chalmers grupprum, brainstorming, skapa classer, metoder och byggt på grunden i koded, mappat ut hur eventuella metoder ska se ut.
+- Planerat med kommentarer vad som ska ske i varje metod.
+- Vi har skapat en static array som används genom alla klasser som uppdateras med varje add mc/car.
+- Vi skapade add Car och add MC. Problem uppstod när vi skulle kalla på vår static array. Fixade med en simple bugfix. 
+- En fungerade "karta" över parkeringen.
+- Bugfix: 3 Mc kunde parkera på samma plats, Mc kunde parkera på plats 0 och sen inte hittas.
+- Bugfix: Add Mc & Car särade inte på mc eller bil 
+- Created ViewParking Method 
+- bugfix view parking  
+- la till move car och sin plats i menyn 
+- la till optimize parkering i menyn 
+- finlir med menyn
+- gjorde klart view parking 
+- la till search och gjorde klart
+- Lagt till move MC. Buggfixat menun och bugfixat move MC.
+- Kommenterade en för move car och mc
+
+
+Martin
+- https://miro.com/ planering, förbreda inför uppgiften, räkna ut hur vi ska lösa uppgiften
+- Vi satt i Chalmers grupprum, brainstorming, skapa classer, metoder och byggt på grunden i koded, mappat ut hur eventuella metoder ska se ut.
+- Vi har skapat en static array som används genom alla klasser som uppdateras med varje add mc/car.
+- Planerat med kommentarer vad som ska ske i varje metod.
+- 11/10 - Arbetade efter lektion. Skapade en metod för Remove Car, samt lade upp en plan för Remove MC.
+- 11/10 Kväll. Bugg: Remove MC visar att MC's tas från plats "-1". 
+- Ändrade RemoveCar för att säkerställa ogiltiga inputs
+- Lade till metod för RemoveMC
+- Bråk med Git Commits.
+- Buggfix: Gick att hitta en bil/mc genom att bara skriva en bokstav i reg-numret
+-

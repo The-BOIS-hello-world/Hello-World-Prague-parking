@@ -1,0 +1,1 @@
+Användarmanual för programmet :
