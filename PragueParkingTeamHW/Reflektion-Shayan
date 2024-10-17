@@ -1,1 +1,44 @@
-Test
+Sammanfattning
+Under arbetet med "Prague Parking"-projektet samarbetade jag med Basel, Martin och Oliver för att skapa ett parkeringssystem som uppfyller kundens krav. 
+Vårt mål var att implementera ett program som kunde hantera fordon, deras parkering, förflyttning och borttagning på ett effektivt sätt, med en enkel textbaserad meny som gränssnitt. 
+Vi arbetade tillsammans i ett grupprum på Chalmers och delade våra idéer genom brainstorming och strukturerade vår planering på Miro, vilket var ett bra verktyg för att organisera tankar och visualisera vårt arbetsflöde.
+
+Hur vi löste uppgiften
+Vi började med att skapa en grundläggande struktur för vårt program genom att sätta upp de nödvändiga klasserna och metoderna. 
+Fokus låg på att designa en simpel switch-meny med fem olika val, vilket skulle styra hur användaren interagerade med systemet. 
+Menyfunktionerna flyttades senare ut till en separat klass, VisualMenu, för att hålla koden mer strukturerad och lättläst.
+
+För att hålla reda på alla fordon skapade vi en statisk array som delas mellan alla klasser, vilket gjorde det möjligt att uppdatera listan över parkerade fordon i realtid. 
+Vi lade också till funktioner för att optimera parkeringen, där ensamstående motorcyklar flyttas ihop för att skapa fler tomma parkeringsplatser. 
+Denna "OptimizeParking"-funktion var en nyckelkomponent i att maximera parkeringsutrymmet.
+
+Utmaningar och lösningar
+Under arbetets gång stötte vi på problem när vi försökte kalla på vår statiska array. Det var en enkel men irriterande bug som orsakade problem i kommunikationen mellan klasserna. 
+Efter lite felsökning och genom att diskutera problemet i gruppen kunde vi hitta och fixa buggen relativt snabbt. 
+Detta var ett bra exempel på hur vi tillsammans kunde identifiera problem och arbeta fram en lösning.
+
+En annan utmaning var att skapa en effektiv och enkel lösning för att optimera MC-parkering. Vår första version av algoritmen för att flytta ihop ensamma motorcyklar var inte optimal, 
+men genom att bryta ner problemet och testa olika metoder lyckades vi få det att fungera smidigt.
+
+Använda metoder och modeller
+För att lösa uppgiften använde vi en objektorienterad design, där varje fordon representerades av ett objekt med tillhörande egenskaper som registreringsnummer och fordonstyp (bil eller MC). 
+Vi planerade varje metod noggrant med kommentarer för att säkerställa att alla förstod vad som behövde göras, vilket hjälpte oss att arbeta effektivt parallellt.
+
+Vi använde en iterativ utvecklingsmodell där vi kontinuerligt byggde på systemet och gjorde små förbättringar längs vägen. 
+Tack vare vårt arbete med Miro kunde vi visualisera och bryta ner uppgiften i mindre, hanterbara delar. 
+Detta hjälpte oss att hålla fokus och undvika att gå vilse i detaljerna.
+
+Hur jag skulle lösa uppgiften nästa gång
+Givet vad jag vet nu, skulle jag vid en liknande uppgift prioritera att tidigt testa integrationen mellan klasser och den delade arrayen, eftersom detta var ett område där vi stötte på problem. 
+Genom att tidigare identifiera problem i kommunikationen mellan olika komponenter skulle vi kunna undvika onödiga buggar och effektivisera utvecklingsprocessen. 
+Dessutom skulle jag vilja arbeta mer med enhetstester från början för att snabbt upptäcka och lösa eventuella buggar.
+
+Slutsats hemuppgift
+Samarbetet med Basel, Martin och Oliver fungerade väldigt bra, och vi kompletterade varandras styrkor. 
+Genom att arbeta metodiskt och använda bra verktyg för planering och utveckling lyckades vi skapa ett fungerande system som uppfyllde kundens krav. 
+Vårt arbete med att optimera parkeringslösningen genom att flytta motorcyklar visade på vår förmåga att tänka kreativt och hitta effektiva lösningar.
+
+Slutsats kurs
+Kursen har gett mig en fördjupad förståelse för hur man strukturerar och utvecklar objektorienterade program. 
+Det har också visat hur viktigt det är att ha en tydlig plan och struktur från början, särskilt när man arbetar i grupp. 
+Genom att använda en iterativ metod kunde vi ständigt förbättra vårt system och anpassa det efter de problem vi stötte på, vilket har varit en värdefull lärdom för framtida projekt.
