@@ -1,1 +1,57 @@
-test
+1. Sammanfattning
+Under arbetet med Prague Parking-projektet fick jag möjlighet att använda de kunskaper jag lärt mig inom programmering och sätta dem i praktiken. 
+Projektet gick ut på att skapa ett system där man kunde lägga till, ta bort och söka efter bilar och motorcyklar. Arbetet handlade mycket om att samarbeta 
+med gruppen, lösa problem och planera framåt. Vi använde Miro för att skissa upp hur vi skulle ta oss an uppgiften och utvecklade sedan systemet steg för steg. 
+Det har varit en lärorik process där vi stött på en hel del utmaningar som vi fick lösa tillsammans.
+
+2. Hur jag löste uppgiften
+Vi började med att sitta tillsammans i ett grupprum och brainstormade hur vi skulle designa systemet. Genom att diskutera och rita upp idéer i Miro 
+kunde vi snabbt komma fram till en bra struktur för klasser och metoder. Det hjälpte oss att tidigt se vilka problem som kunde dyka upp och hur vi skulle hantera 
+dem.
+
+En viktig del i lösningen var att skapa en statisk array som kunde hålla reda på alla fordon som parkerades. Den här arrayen var gemensam för alla klasser och 
+gjorde att systemet hela tiden hade koll på vilka fordon som var parkerade. Vi delade upp arbetet och planerade varje metod med tydliga kommentarer, vilket gjorde 
+att vi snabbt kunde förstå vad som behövde göras i varje steg.
+
+Under utvecklingen har jag jobbat med att lägga till funktioner som att ta bort bilar och motorcyklar, och det krävde att vi noggrant gick igenom hur systemet 
+skulle reagera på olika situationer, som ogiltiga registreringsnummer eller tomma platser. Vi kom överens om att lösa motorcyklar genom att ge parkeringsplatserna 
+olika tecken för att lättare kunna söka efter olika scenarion. "Reg * Reg" för en parkeringsplats med två MCs i. "Reg * #" för en plats med enbart en MC. "0" för en
+tom parkeringsplats. Genom att använda .Contains och .Replace så kunde jag leta efter, och byta ut de olika typerna. 
+
+3. Utmaningar i uppgiften och hur de löstes
+En av de stora utmaningarna för mig var att fixa en bugg där systemet visade att en motorcykel togs bort från plats "-1". Det berodde på att arrayen inte hittade 
+rätt index när ett fordon skulle tas bort. Vi var tvungna att justera koden och lägga till extra kontroller för att se till att systemet hittade rätt position.
+
+Vi hade även problem med Git-commits. Under ett tillfälle blev det konflikter när vi försökte lägga till commits. Vi var tvungna att resetta tillbaka till en 
+tidigare version av koden. Det var frustrerande eftersom vi förlorade en del arbete, men vi lärde oss vikten av att göra mindre och tydligare commits oftare. 
+Efter att ha löst konflikten kunde vi återgå till att utveckla systemet utan fler större problem.
+
+En annan utmaning var att det gick att söka efter bilar och motorcyklar genom att bara skriva in en bokstav av registreringsnumret i min del av koden. 
+Detta var ett problem eftersom vi ville att användaren skulle skriva in hela numret. För att lösa det ändrade vi hur sökningen fungerade och krävde att 
+hela numret skulle matcha exakt.
+
+4. Metoder och modeller som använts för att lösa uppgiften
+Vi använde en metod där vi först planerade uppgiften noga och sedan arbetade steg för steg. Genom att använda Miro kunde vi visualisera systemets olika delar och 
+på så sätt lättare se vad som behövde göras. Det gjorde att vi kunde bryta ner stora problem till mindre, hanterbara delar.
+
+Den statiska arrayen vi använde för att hålla reda på fordonen gjorde att vi enkelt kunde uppdatera informationen varje gång en bil eller motorcykel lades till 
+eller togs bort. Vi använde oss också av objektorienterade principer när vi skapade metoder för att hantera parkeringen och dess olika funktioner. För att hålla 
+klassen "Menu" så ren som möjligt så skapade vi fler klasser där den stora delen av koden skrevs. 
+
+5. Hur jag skulle lösa uppgiften nästa gång, givet vad jag vet nu
+Om jag skulle göra om uppgiften skulle jag lägga mer fokus på versionshanteringen i Git och göra färre commits och med mer försiktighet. 
+Det skulle ha hjälpt oss att undvika de problem vi hade med krockande ändringar. Jag skulle också ha lagt in mer validering tidigt i utvecklingen för att snabbt 
+fånga upp fel, som till exempel buggen med registreringsnumret.
+
+6. Slutsats hemuppgift
+Det här projektet har varit väldigt lärorikt. Jag har fått öva på att planera, samarbeta och lösa tekniska problem. Vi stötte på flera utmaningar, men genom att 
+arbeta systematiskt och hela tiden testa våra lösningar kunde vi lösa dem. Jag känner att jag har utvecklat mina färdigheter inom både programmering och samarbete, 
+dock så känner jag fortfarande att den där "polleten" inte har trillat ner. Jag har suttit med 3 st väldigt klipska killar som har programmerat innan och jag 
+känner att jag fortfarande ligger efter. Med 3 barn varannan vecka så har jag också märkt att jag har mindre tid att lägga på att plugga under den perioden. 
+Detta är något jag måste hitta en lösning på framöver. 
+
+7. Slutsats kurs
+Kursen har gett mig en bra förståelse för systemutveckling och programmering i praktiken. Jag har lärt mig mycket om hur man strukturerar projekt och hur viktigt 
+det är att arbeta effektivt i team. Jag tar med mig erfarenheter om versionshantering, kodstruktur och hur man löser problem som dyker upp under 
+utvecklingsprocessen. Sammanfattningsvis känner jag mig mer säker på min roll som utvecklare och ser fram emot att använda dessa kunskaper i framtida projekt.
+Dock känner jag även att svårighetsgraden på dessa uppgifter inte rimmar med mängden kunskap vi har fått genom föreläsningar. 
