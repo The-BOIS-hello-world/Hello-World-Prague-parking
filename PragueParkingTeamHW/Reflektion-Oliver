@@ -1,1 +1,28 @@
-test
+Sammanfattning
+Under arbetet med "Prague Parking V1" har vi verkligen kunnat utveckla våra programmerings kunksaper samtidigt som vi har skapat ett system som känns användbart och genomtänkt. Från de första planeringsstegen med brainstorming i 
+Chalmers grupprum till att faktiskt se hur funktioner som att flytta bilar och motorcyklar på parkeringen fungerar i praktiken, har resan varit full av lärdomar. Det var inte alltid lätt, men vi fick ordning på både koden och buggarna,
+och nu har vi ett stabilt system som jag är riktigt nöjd med.
+Hur vi/jag löste uppgiften
+Vi började med att använda Miro för att planera och strukturera uppgiften. Det hjälpte oss att hålla koll på vilka metoder och klasser som behövde skapas och vad varje metod skulle göra. Efter att ha byggt grunden för vårt system skapade 
+vi en statisk array för att hålla koll på parkeringen, vilket blev centralt för att hantera både bilar och motorcyklar. Vi lade till funktioner som att lägga till och flytta fordon, och en karta som visar hur parkeringen ser ut, vilket gav
+en tydligare överblick. När problem uppstod med hur den statiska arrayen hanterades, löste vi det genom att gå igenom koden noggrant och fixa buggarna.
+Utmaningar i uppgiften och hur de löstes
+Det var flera buggar som dök upp under arbetets gång, till exempel att tre motorcyklar kunde parkera på samma plats eller att motorcyklar kunde hamna på plats 0 och inte hittas igen. En annan utmaning var att systemet inte skilde på 
+bilar och motorcyklar när de lades till, vilket skapade förvirring i parkeringen. Vi tog oss an dessa problem en efter en, ofta genom att testa olika lösningar tills vi hittade rätt. När vi byggde funktionen för att visa parkeringen 
+fick vi justera flera gånger innan den visade rätt information.
+Metoder och modeller som använts för att lösa uppgiften
+Vår planeringsfas hjälpte oss att strukturera koden effektivt. Vi skapade små, hanterbara metoder som var specifikt ansvariga för att lägga till och flytta fordon, söka efter registreringsnummer och optimera parkeringen. Genom att 
+hålla funktionerna tydligt separerade kunde vi felsöka lättare och förbättra systemet kontinuerligt. En viktig metod vi byggde var "ViewParking", som gav personalen en klar bild av vad som fanns på varje plats, och den blev en nyckel 
+till att göra systemet mer användarvänligt.
+Hur jag skulle lösa uppgiften nästa gång, givet vad jag vet nu
+Om jag skulle göra om uppgiften skulle jag börja med att fokusera mer på detaljerad testning från början, särskilt när det gäller hur olika fordon hanteras i systemet. Det hade sparat oss tid att direkt kunna fånga upp buggar som 
+rörde hur bilar och motorcyklar separerades. Jag skulle också satsa på en ännu tydligare struktur i metoderna för att minimera förvirring när vi hanterade flera fordonstyper.
+Slutsats hemuppgift
+Hemuppgiften har varit riktigt lärorik och jag har fått en bättre känsla för hur man löser ett större problem genom att dela upp det i mindre delar. Att se hur vi gick från planering till ett fungerande system har varit motiverande,
+och jag känner att jag nu har ett bättre grepp om både programmering och projektarbete.
+Slutsats kurs
+Kursen har varit intensiv men också väldigt givande. Jag har utvecklat både mina tekniska färdigheter och förmågan att jobba i team för att lösa problem. Genom att arbeta med ett praktiskt projekt som "Prague Parking V1" har jag lärt 
+mig hur viktigt det är att ha en strukturerad plan, men också att vara flexibel när buggar och oväntade problem dyker upp. Det har verkligen varit en bra erfarenhet, och jag ser fram emot att ta med mig dessa lärdomar in i framtida
+projekt.
+
+
