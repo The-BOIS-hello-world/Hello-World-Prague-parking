@@ -1,1 +1,36 @@
-test
+Sammanfattning
+Att jobba med "Prague Parking V1" har varit en riktigt rolig och utmanande uppgift. Vi fick sätta oss in i kundens behov och skapa ett fungerande system från grunden, vilket gav en verklig känsla av hur det är att
+utveckla något som ska användas i praktiken. Vi byggde funktioner för att hantera fordon, flytta dem runt på parkeringen och en interaktiv meny som jag är riktigt stolt över. Systemet utvecklades steg för steg med 
+många små framsteg och några hinder på vägen.
+
+Hur vi/jag löste uppgiften
+Vi började projektet med en gemensam brainstorming-session i grupprummet på Chalmers. Det var ett bra sätt att få struktur och se vilka delar vi behövde fokusera på. När vi hade en plan satte vi igång med att skapa 
+grundläggande klasser och metoder. Att ha en statisk array för att hålla koll på parkeringen visade sig vara effektivt och vi lade mycket tid på att finjustera så att allt fungerade smidigt. Buggar dök upp, som väntat,
+men vi fixade dem snabbt och fortsatte bygga på systemet. Menyn var en av de roligaste delarna för mig, särskilt när vi fick den centrerad och allt blev mer "polerat".
+
+Utmaningar i uppgiften och hur de löstes
+En stor utmaning var när vi försökte kalla på den statiska arrayen från flera klasser och den inte uppdaterades korrekt. Det var frustrerande i stunden, men vi löste det genom att noggrant gå igenom koden och hitta 
+buggen. En annan grej som krävde mycket tålamod var att få metoderna att samspela perfekt, speciellt när vi började lägga till mer avancerade funktioner som att flytta bilar och motorcyklar. Men vi tog det steg för 
+steg och lärde oss mycket på vägen.
+Metoder och modeller som använts för att lösa uppgiften
+
+Vi använde en objektorienterad metod, vilket verkligen hjälpte till att bryta ner problemet i mindre delar. Att ha separata klasser för fordon och parkeringen gjorde koden mycket enklare att hantera och ändra. 
+För optimeringen av parkeringen använde vi en metod som packar motorcyklar på ett effektivt sätt. Genom hela projektet försökte vi hålla koden ren och tydlig, och det märktes att vi lärde oss mer om hur viktig en bra 
+kodstruktur är.
+
+Hur jag skulle lösa uppgiften nästa gång, givet vad jag vet nu
+Om jag skulle göra om uppgiften skulle jag börja med ännu mer detaljerad planering och lägga större fokus på användarinput tidigt i processen. Jag skulle också strukturera koden bättre från början för att undvika 
+några av de problem vi stötte på med att hantera den statiska arrayen. Dessutom skulle jag bygga in bättre felhantering direkt, för det hade sparat oss en hel del tid och huvudvärk senare i projektet.
+
+Slutsats hemuppgift
+Den här uppgiften gav mig verkligen en känsla för hur det är att jobba på ett större projekt. Det var utmanande, men också otroligt tillfredsställande att se hur allt föll på plats efterhand. Det har varit lärorikt att 
+se hur viktigt det är att planera och testa under hela utvecklingsprocessen, och hur små justeringar kan ha stor påverkan. Jag vet inte riktigt hur mycket mer man kan skriva men jag tycker att 4 st är för mycket för en 
+sådan uppgift som ska ta 1,5 veckor att lösa. Det är för lite jobb att dela upp det bland alla så jag tycker till nästa gång att man ska vara MAX 3 st.
+
+Slutsats kurs
+Kursen har gett mig en djupare förståelse för programmering och hur man löser problem på ett strukturerat sätt. Det har varit särskilt roligt att se hur de teoretiska delarna av kursen kunde tillämpas 
+direkt i ett praktiskt projekt. Jag känner att jag har vuxit mycket, både i mitt sätt att tänka kring kod och i hur jag samarbetar med andra för att lösa tekniska utmaningar. Däremot känner jag att jag har växt som mest
+inom programering när jag har lärt mig själv, genom bäcker, youtube och googlande/chatgpt. Själva föreläsningarna känns som att vi bränner igenom dom bara och sen så ska vi flyga när vi bara har lärt oss att titta. Kan 
+förstå att det kanske är det som är syftet men jag tänker på dom som inte lägger lika mycket tid på fritiden. Bara en reflektion.
+
+
